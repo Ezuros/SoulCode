@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(../font/venus\ rising\ rg.ttf);
+}
+
+body {
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 1);
+    /* border: 3px solid white;
+    border-left: none;
+    border-right: none; */
+
+
+}
+
+#opção-1 {
+    padding: 15px;
+    font-family: 'MinhaFonte';
+    font-size: 13px;
+    color: aliceblue;
+
+
+
+}
+
+a {
+
+    /* text-shadow: 5px 3px 20px white; */
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#opção-1:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+#opção-2 {
+    padding: 15px;
+    font-family: 'MinhaFonte';
+    font-size: 13px;
+    color: aliceblue;
+}
+
+#opção-2:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+#opção-3 {
+    padding: 15px;
+    font-family: 'MinhaFonte';
+    font-size: 13px;
+    color: aliceblue;
+}
+
+#opção-3:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+#opção-4 {
+    padding: 15px;
+    font-family: 'MinhaFonte';
+    font-size: 13px;
+    color: aliceblue;
+}
+
+#opção-4:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.img-principal {
+    /* border: 20px solid black;
+    border-top: none; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* border-bottom: solid 43px black; */
+
+
+
+}
+
+
+footer {
+
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 4%;
+    font-family: 'MinhaFonte';
+    text-align: center;
+    font-size: 12px;
+    display: block;
+}
+
+
+#meuaudio {
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo {
+
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-family: 'MinhaFonte';
+
+}
+
+.lado-a-lado {
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foto1 {
+    background-color: black;
+    padding: 30px;
+    width: 20%;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+#foto2 {
+    background-color: black;
+    padding: 30px;
+    width: 20%;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+#foto3 {
+    background-color: black;
+    padding: 30px;
+    width: 20%;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+#img1 {
+    margin-top: -450px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'MinhaFonte';
+}
+
+#txt {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'MinhaFonte';
+}
+
+#arrow {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
